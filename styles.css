@@ -9,3 +9,7 @@ img {
 .main-image img {
 	float: left
 }
+
+.footer {
+  text-align: right;
+}
