@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200..900&display=swap');
+
+body {
+  font-family: 'Fraunces', serif;
+  font-optical-sizing: auto;
+}
+
+<!-- something22 -->
+
 img {
 	width: 500px;
 	margin-top: 5px;
