@@ -6,6 +6,6 @@ img {
 	margin-right: 10px;
 }
 
-img.main-image {
+.main-image img {
 	float: left
 }
