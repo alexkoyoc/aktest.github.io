@@ -1,35 +1,35 @@
 body {
 	color: black;
-	font-family: Fraunces, Serif;
+	font-family: "Fraunces", Serif;
 	font-weight: 400;
+	font-optical-sizing: auto;
 }
 
 .banner {
 	float: left;
-	font-style: bold;
 	font-weight: 700;
-	font-family: Fraunces, Serif;
+	font-family: "Fraunces", Serif;
 }
 
 nav {
 	float: right;
 	font-weight: 500;
-	font-family: Fraunces, Serif;
+	font-family: "Fraunces", Serif;
 }
-	
-	
+
+.main-image {
+	clear: both;
+}
+		
 img {
 	width: 500px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 5px 10px;
 }
 
 .main-image img {
 	float: left
 }
 
-.footer {
+footer {
   text-align: right;
 }
