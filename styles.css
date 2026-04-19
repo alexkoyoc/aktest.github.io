@@ -1,17 +1,18 @@
 body {
 	color: black;
-	font-family: "Rosarivo", Serif;
+	font-family: "Namdhinggo", Serif;
 	font-optical-sizing: auto;
 }
 
 .banner {
 	float: left;
-	font-family: "Rosarivo", Serif;
+	font-width: 600;
+	font-family: "Namdhinggo", Serif;
 }
 
 nav {
 	float: right;
-	font-family: "Rosarivo", Serif;
+	font-family: "Namdhinggo", Serif;
 }
 
 nav ul {
