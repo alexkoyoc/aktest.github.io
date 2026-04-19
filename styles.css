@@ -17,6 +17,10 @@ nav {
 	font-family: "Fraunces", Serif;
 }
 
+.nav {
+	display: flex;
+}
+
 .main-image {
 	clear: both;
 }
