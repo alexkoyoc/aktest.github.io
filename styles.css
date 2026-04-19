@@ -32,6 +32,11 @@ nav li {
     text-align: center;
 }
 
+nav a {
+	color: black;
+    text-decoration: none;
+      }
+
 .main-image {
 	clear: both;
 }
