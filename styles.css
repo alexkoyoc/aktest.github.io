@@ -1,20 +1,18 @@
 body {
 	color: black;
-	font-family: "Fraunces", Serif;
+	font-family: "Rosarivo", Serif;
 	font-weight: 400;
 	font-optical-sizing: auto;
 }
 
 .banner {
 	float: left;
-	font-weight: 700;
-	font-family: "Fraunces", Serif;
+	font-family: "Rosarivo", Serif;
 }
 
 nav {
 	float: right;
-	font-weight: 500;
-	font-family: "Fraunces", Serif;
+	font-family: "Rosarivo", Serif;
 }
 
 nav ul {
