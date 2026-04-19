@@ -17,13 +17,19 @@ nav {
 	font-family: "Fraunces", Serif;
 }
 
-nav ul{
-	display: flex;
-	list-style-type: none;
-	padding: 0;
-	flex-basis: 100px;
-	text-align: center;
-	background-color: #D6CFC7;
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+}
+
+nav li {
+	border: black 1px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
 }
 
 .main-image {
