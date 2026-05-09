@@ -35,6 +35,7 @@ body {
 
 .banner h1 {
    margin: 0;
+   font-family: "Fraunces", serif;
    font-size: 24px;
    font-weight: 700;
 }
