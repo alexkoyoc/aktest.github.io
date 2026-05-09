@@ -23,6 +23,12 @@ body {
 	margin: 0 auto;
 }
 
+::selection {
+   background-color: #d8c7a3;
+   color: black;
+}
+
+
 /* =========================
     Header
 ========================= */
@@ -31,9 +37,18 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: baseline;
-   margin-bottom: 40px;
+   margin-bottom: 35px;
+   padding-bottom: 14px;
+   border-bottom: 1px solid #d8c7a3;
 }
 
+.site-subtitle {
+   margin: 4px 0 0 0;
+   font-size: 11px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #6f6a5f;
+}
 .banner h1 {
    margin: 0;
    font-family: "Libre Baskerville", serif;
@@ -83,17 +98,22 @@ body {
 
 .home-layout {
    display: flex;
-   gap: 45px;
+   gap: 35px;
    align-items: stretch;
+
+   padding: 20px;
+   border: 1px solid #d8c7a3;
+   border-radius: 14px;
+   background-color: rgba(255, 255, 255, 0.35);
 }
 
 /* =========================
    Main Image
 ========================= */
 
-.main-image {
+..main-image {
    flex-shrink: 0;
-   width: 420px;
+   width: 400px;
 }
 
 .main-image img {
@@ -102,14 +122,16 @@ body {
    height: 100%;
    object-fit: cover;
    border-radius: 8px;
+   border: 1px solid #d8c7a3;
 }
+
 
 /* =========================
    Body Text
 ========================= */
 
 .info {
-   max-width: 650px;
+   max-width: 500px;
 }
 
 .info p {
