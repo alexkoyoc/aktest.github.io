@@ -77,6 +77,16 @@ body {
    Main Image
 ========================= */
 
+.home-layout {
+	display:flex;
+	gap: 45px;
+	align-items: : flex-start;
+}
+
+/* =========================
+   Main Image
+========================= */
+
 .main-image {
    margin-bottom: 40px;
 }
