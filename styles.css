@@ -1,53 +1,125 @@
+/* =========================
+   Generi geal Page Styles
+
+   By: Alexander Koyoc
+   Last Updated: May 9, 2026
+
+========================= */
+
+
+* {
+	box-sizing: border-box;
+}
+
 body {
 	color: black;
-	font-family: font-family: "Libre Baskerville", serif;
-	font-optical-sizing: auto;
+	font-family: "Libre Baskerville", serif;
+	margin: 80px 30px;
 }
 
-.banner {
-	float: left;
-	font-width: 500;
-	font-family: font-family: "Libre Baskerville", serif;
+.content {
+	max-width: 900px;
+	margin: 0px;
 }
 
-nav {
-	float: right;
-	font-family: font-family: "Libre Baskerville", serif;
+/* =========================
+    Header
+========================= */
+
+.site-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   margin-bottom: 50px;
 }
 
-nav ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 500px;
+.banner h1 {
+   margin: 0;
+   font-size: 28px;
+   font-weight: 400;
 }
 
-nav li {
-	border: black 1px;
-    margin: 5px;
-    padding: 10px;
-    text-align: center;
+.banner a {
+   color: black;
+   text-decoration: none;
 }
 
-nav a {
-	color: black;
-    text-decoration: none;
-      }
+.banner a:hover {
+   text-decoration: underline;
+}
+
+/* =========================
+    Navigation
+========================= */
+
+.site-nav ul {
+   display: flex;
+   gap: 18px;
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.site-nav a {
+   color: black;
+   text-decoration: none;
+   font-size: 15px;
+   padding: 6px 8px;
+   border: 1px solid transparent;
+}
+
+.site-nav a:hover {
+   border: 1px solid black;
+   background-color: #f2f2f2;
+}
+
+/* =========================
+   Main Image
+========================= */
 
 .main-image {
-	clear: both;
-}
-		
-img {
-	width: 500px;
-	margin: 5px 10px;
+   margin-bottom: 40px;
 }
 
 .main-image img {
-	float: right
+   display: block;
+   width: 500px;
+   max-width: 100%;
+   margin-left: auto;
 }
 
+/* =========================
+   Body Text
+========================= */
+
+.info {
+   max-width: 650px;
+}
+
+.info p {
+   font-size: 15px;
+   line-height: 1.6;
+   text-align: justify;
+}
+
+/* =========================
+   Links
+========================= */
+
+a {
+   color: black;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+/* =========================
+   Footer
+========================= */
+
 footer {
-  text-align: left;
+   max-width: 900px;
+   margin: 60px auto 0;
+   font-size: 13px;
 }
