@@ -30,7 +30,7 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: baseline;
-   margin-bottom: 50px;
+   margin-bottom: 25px;
 }
 
 .banner h1 {
@@ -88,13 +88,14 @@ body {
 ========================= */
 
 .main-image {
-	flex-shrink: 0;
+   flex-shrink: 0;
    margin-bottom: 40px;
 }
 
 .main-image img {
    display: block;
    width: 420px;
+   object-fit: cover;
    max-width: 100%;
 }
 
