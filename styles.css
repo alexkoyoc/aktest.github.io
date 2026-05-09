@@ -140,13 +140,16 @@ body {
    align-items: flex-start;
 }
 
+.about-layout .info {
+   max-width: 500px;
+}
+
 .about-image {
    flex-shrink: 0;
    width: 420px;
 }
 
-.about-image img,
-.about-extra-image img {
+.about-image img {
    display: block;
    width: 100%;
    max-width: 100%;
@@ -157,6 +160,13 @@ body {
    max-width: 420px;
    margin-top: 35px;
 }
+
+.about-extra-image img {
+   display: block;
+   width: 100%;
+   max-width: 100%;
+   border-radius: 6px;
+}}
 
 /* =========================
    Links
