@@ -1,18 +1,18 @@
 body {
 	color: black;
-	font-family: "Outfit", sans-serif
+	font-family: font-family: "Libre Baskerville", serif;
 	font-optical-sizing: auto;
 }
 
 .banner {
 	float: left;
 	font-width: 500;
-	font-family: "Outfit", sans-serif
+	font-family: font-family: "Libre Baskerville", serif;
 }
 
 nav {
 	float: right;
-	font-family: "Outfit", sans-serif
+	font-family: font-family: "Libre Baskerville", serif;
 }
 
 nav ul {
