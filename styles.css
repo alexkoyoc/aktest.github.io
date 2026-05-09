@@ -1,5 +1,5 @@
 /* =========================
-   Generi geal Page Styles
+   General Page Styles
 
    By: Alexander Koyoc
    Last Updated: May 9, 2026
@@ -19,7 +19,7 @@ body {
 
 .content {
 	max-width: 900px;
-	margin: 0px;
+	margin: 0 auto;
 }
 
 /* =========================
@@ -74,13 +74,13 @@ body {
 }
 
 /* =========================
-   Main Image
+   Layout
 ========================= */
 
 .home-layout {
 	display:flex;
 	gap: 45px;
-	align-items: : flex-start;
+	align-items: flex-start;
 }
 
 /* =========================
@@ -93,9 +93,8 @@ body {
 
 .main-image img {
    display: block;
-   width: 380px;
+   width: 500px;
    max-width: 100%;
-   margin-left: auto;
 }
 
 /* =========================
@@ -133,4 +132,5 @@ footer {
    max-width: 900px;
    margin: 60px auto 0;
    font-size: 13px;
+   text-align: right;
 }
