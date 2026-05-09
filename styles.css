@@ -71,11 +71,13 @@ body {
 }
 
 .site-nav a:hover {
-   border: 1px solid black;
-   background-color: #f2f2f2;
+   color: #6f6a5f;
+   border: 1px solid #8a7a63;
+   background-color: #eee7dc;
+   text-decoration: none;
 }
 
-//* =========================
+/* =========================
    Layout
 ========================= */
 
@@ -91,7 +93,7 @@ body {
 
 .main-image {
    flex-shrink: 0;
-   max-width: 420px;
+   width: 420px;
 }
 
 .main-image img {
@@ -116,6 +118,10 @@ body {
    text-align: left;
    margin-top: 0;
    margin-bottom: 16px;
+}
+
+.info strong {
+   color: #6f6a5f;
 }
 
 /* =========================
@@ -172,13 +178,15 @@ body {
 /* =========================
    Links
 ========================= */
-a, a:visited {
+
+.info a,
+.info a:visited {
    color: #6f6a5f;
 }
 
-a:hover {
+.info a:hover {
    color: black;
-   background-color: #fff3b0;
+   background-color: #d8c7a3;
    text-decoration: none;
 }
 
